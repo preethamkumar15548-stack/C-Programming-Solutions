@@ -16,7 +16,7 @@ void primee(int n)
 
     if(isprime == 1)
     {
-        printf("Number is %d prime", n);
+        printf("%d is prime", n);
     }
     else
     {
