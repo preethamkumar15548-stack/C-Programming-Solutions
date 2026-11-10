@@ -17,6 +17,7 @@ int main()
 		int digit=num%10;
 
 		sum=sum+digit;
+		//in case if  you want to do multiplication of the digits then we have to declare prodect =1 in case of sum = 0.
 
 		num= num/10;
 	}
@@ -25,4 +26,4 @@ int main()
 
 	return 0;
 }
-	\\in case if  you want to do multiplication of the digits then we have to declare prodect =1 in case of sum = 0.
+	
