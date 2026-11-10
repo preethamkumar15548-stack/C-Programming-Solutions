@@ -25,3 +25,4 @@ int main()
 
 	return 0;
 }
+	\\in case if  you want to do multiplication of the digits then we have to declare prodect =1 in case of sum = 0.
