@@ -9,35 +9,49 @@ int main(){
 printf("%s",str);    
 
 
-    /*there are some more other things we can do with strings which include:
-    1>strlen:this calculates the string length.
+/*   
+#include <stdio.h>
+#include <string.h>
 
-    
-    2>strcpy:this copies string from one char to another char.
+int main()
+{
+    char a[100] = "SNIST";
+    char b[100] = "College";
+    char c[100];
 
-    char a[50] = {"SNIST"};
-    char b[50];
-    strcpy(b,a);
-
-    printf("%s",b);
-    
-    //int he above code sting b gets the value stored in a.
-
-    
-        3>strcmp:this compares two strings
-        in case if u want to get to know if both strings are equal use if condition and prive it
-        if(strcmp(a,b)==0){
-        printf("Strings are equal");
-        }
+    // 1. strlen() - Calculates the length of a string
+    printf("Length of a = %d\n", (int)strlen(a));
 
 
-        4>strcat:this combines 2 strings together
-        like if string a=this is C and b =Language
-        then use strcat(a,b) this combines both a and b strings but without any gap between them.
-       
-        
-        5>strrev:this reverses the string and gives the output.*/
-  
+    // 2. strcpy() - Copies one string into another
+    strcpy(c, a);
+    printf("Copied string = %s\n", c);
+
+
+    // 3. strcmp() - Compares two strings
+    if(strcmp(a, b) == 0)
+    {
+        printf("Strings are equal\n");
+    }
+    else
+    {
+        printf("Strings are not equal\n");
+    }
+
+
+    // 4. strcat() - Combines two strings
+    strcat(a, b);
+    printf("Concatenated string = %s\n", a);
+
+
+    // 5. strrev() - Reverses a string
+    // Note: strrev() is not supported by all C compilers.
+    strrev(b);
+    printf("Reversed string = %s\n", b);
+*/
+    return 0;
+}
+
     return 0;
     
 }
