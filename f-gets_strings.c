@@ -15,7 +15,7 @@ printf("%s",str);
 
 int main()
 {
-    char a[100] = "SNIST";
+    char a[100] = "ABC";
     char b[100] = "College";
     char c[100];
 
